@@ -1,29 +1,42 @@
-# VIM
+# 💻 VIM
 
-Proyecto para configuración y uso de VIM.
+Proyecto para configuración y uso de VIM desarrollado por **Isaac Esteban Haro Torres**.
 
-## Descripción
+---
+
+## 📝 Descripción
 
 Configuraciones y scripts para personalizar y optimizar el editor VIM.
 
-## Características
+---
+
+## ✨ Características
 
 - Configuración de VIM
 - Plugins y atajos
 - Optimización de flujo de trabajo
 
-## Stack Tecnológico
+---
+
+## 🛠️ Stack Tecnológico
 
 - VIM
 - Vimscript
 - Plugins
 
-## Autor
+---
 
-🧑‍💻 **Isaac Haro**
+## 👨‍💻 Desarrollado por Isaac Esteban Haro Torres
 
-Ingeniero en Sistemas · Full Stack · Automatización · Data
+**Ingeniero en Sistemas · Full Stack · Automatización · Data**
 
-## Licencia
+- 📧 Email: zackharo1@gmail.com
+- 📱 WhatsApp: 098805517
+- 💻 GitHub: https://github.com/ieharo1
+- 🌐 Portafolio: https://ieharo1.github.io/portafolio-isaac.haro/
 
-MIT — contribuciones bienvenidas 🚀
+---
+
+## 📄 Licencia
+
+© 2026 Isaac Esteban Haro Torres - Todos los derechos reservados.
