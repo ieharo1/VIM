@@ -15,6 +15,7 @@ Configuraciones y scripts para personalizar y optimizar el editor VIM.
 - Configuración de VIM
 - Plugins y atajos
 - Optimización de flujo de trabajo
+- Personalización del entorno de desarrollo
 
 ---
 
@@ -23,20 +24,45 @@ Configuraciones y scripts para personalizar y optimizar el editor VIM.
 - VIM
 - Vimscript
 - Plugins
+- Terminal Linux/Unix
 
 ---
 
-## 👨‍💻 Desarrollado por Isaac Esteban Haro Torres
+## 📦 Estructura del Proyecto
 
-**Ingeniero en Sistemas · Full Stack · Automatización · Data**
-
-- 📧 Email: zackharo1@gmail.com
-- 📱 WhatsApp: 098805517
-- 💻 GitHub: https://github.com/ieharo1
-- 🌐 Portafolio: https://ieharo1.github.io/portafolio-isaac.haro/
+```
+VIM/
+├── .vimrc              # Configuración principal
+├── plugins/            # Configuraciones de plugins
+└── README.md
+```
 
 ---
 
-## 📄 Licencia
+## 🚀 Uso
+
+1. Clonar el repositorio
+2. Copiar `.vimrc` a tu home
+3. Instalar plugins con el gestor de tu preferencia
+
+---
+
+## 🔧 Configuración Básica
+
+- Atajos de teclado personalizados
+- Resaltado de sintaxis
+- Autocompletado
+- Navegación de archivos
+
+---
+
+👨‍💻 Desarrollado por Isaac Esteban Haro Torres
+
+Ingeniero en Sistemas · Full Stack · Automatización · Data
+
+    📧 Email: zackharo1@gmail.com
+    📱 WhatsApp: 098805517
+    💻 GitHub: https://github.com/ieharo1
+    🌐 Portafolio: https://ieharo1.github.io/portafolio-isaac.haro/
 
 © 2026 Isaac Esteban Haro Torres - Todos los derechos reservados.
