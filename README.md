@@ -1,26 +1,26 @@
 # VIM Community Profile Setup
 
-Professional Vim configuration designed for real projects and open-source collaboration.
+Configuración profesional de Vim pensada para proyectos reales y colaboración Open Source.
 
-## Why this repo matters
-- Fast and maintainable Vim setup for daily software engineering.
-- Community-ready standards: CI, contribution rules, issue templates, and governance docs.
-- Strong profile signal: technical depth + maintainability + OSS hygiene.
+## Por qué este repositorio importa
+- Setup de Vim rápido y mantenible para ingeniería de software diaria.
+- Estándares aptos para comunidad: CI, reglas de contribución, plantillas e infraestructura de gobernanza.
+- Señal profesional fuerte: profundidad técnica, mantenibilidad y disciplina OSS.
 
-## Features
-- Modular config architecture:
+## Qué incluye
+- Arquitectura modular de configuración:
   - `vim/settings.vim`
   - `vim/plugins.vim`
   - `vim/mappings.vim`
   - `vim/autocmds.vim`
-- Plugin stack for serious workflow:
-  - navigation/search (`fzf`, `ripgrep`, `NERDTree`)
+- Stack de plugins para flujos reales:
+  - navegación y búsqueda (`fzf`, `ripgrep`, `NERDTree`)
   - Git (`vim-fugitive`, `vim-gitgutter`)
-  - diagnostics and completion (`ALE`, `coc.nvim`)
-- Install scripts for Linux/macOS and Windows.
-- CI smoke tests to validate config loading on every PR/push.
+  - diagnósticos y completado (`ALE`, `coc.nvim`)
+- Scripts de instalación para Linux/macOS y Windows.
+- Pruebas de humo en CI que validan la carga del perfil en cada push/PR.
 
-## Repository structure
+## Estructura del repositorio
 ```text
 VIM/
 |-- .github/
@@ -40,7 +40,6 @@ VIM/
 |   |-- settings.vim
 |   |-- plugins.vim
 |   |-- mappings.vim
-|   |-- autocmds.vim
 |   `-- coc-settings.json
 |-- CHANGELOG.md
 |-- CODE_OF_CONDUCT.md
@@ -49,29 +48,29 @@ VIM/
 `-- SECURITY.md
 ```
 
-## Requirements
-- Vim 8.2+
+## Requisitos
+- Vim 8.2 o superior.
 - `git`
-- `curl` (Linux/macOS) or PowerShell web access (Windows)
-- `node` 18+ (recommended for `coc.nvim`)
-- `ripgrep` (recommended for high-performance search)
+- `curl` (Linux/macOS) o acceso web desde PowerShell (Windows).
+- `node` 18+ (recomendado para `coc.nvim`).
+- `ripgrep` (recomendado para búsquedas rápidas).
 
-## Keymaps (leader: `Space`)
-- `<Space>w`: save
-- `<Space>q`: quit
-- `<Space>e`: file tree toggle
-- `<Space>ff`: find files
-- `<Space>fr`: global text search
-- `<Space>gs`: Git status
-- `gd`, `gi`, `gr`: jump to definition/implementation/references
-- `<Space>rn`: symbol rename
+## Atajos clave (`leader` es `Space`)
+- `<Space>w`: guardar archivo.
+- `<Space>q`: cerrar buffer.
+- `<Space>e`: alternar árbol de archivos.
+- `<Space>ff`: buscar archivos.
+- `<Space>fr`: búsqueda global de texto.
+- `<Space>gs`: estado de Git.
+- `gd`, `gi`, `gr`: ir a definición/implementación/referencias.
+- `<Space>rn`: renombrar símbolo.
 
-## Learning manual
-1. Start at `docs/LEARNING_PATH.md` for a staged curriculum from zero to advanced.
-2. Practice the drills in `docs/LEARNING_EXERCISES.md`.
-3. Carry a quick reference with `docs/CHEAT_SHEET.md`.
+## Manual de aprendizaje
+1. Empieza por `docs/LEARNING_PATH.md` para un currículum escalonado de cero a avanzado.
+2. Practica los ejercicios de `docs/LEARNING_EXERCISES.md`.
+3. Lleva la referencia rápida de `docs/CHEAT_SHEET.md`.
 
-## Install
+## Instalación
 
 ### Linux/macOS
 ```bash
@@ -86,19 +85,19 @@ powershell -ExecutionPolicy Bypass -File .\install.ps1
 vim +PlugInstall +qa
 ```
 
-## Documentation
-- Learning path: `docs/LEARNING_PATH.md`
-- Exercises: `docs/LEARNING_EXERCISES.md`
-- Cheat sheet: `docs/CHEAT_SHEET.md`
-- Roadmap: `docs/ROADMAP.md`
-- Visual summary: `docs/web/index.html`
+## Documentación destacada
+- Manual de aprendizaje: `docs/LEARNING_PATH.md`
+- Ejercicios guiados: `docs/LEARNING_EXERCISES.md`
+- Hoja rápida: `docs/CHEAT_SHEET.md`
+- Hoja de ruta: `docs/ROADMAP.md`
+- Resumen visual: `docs/index.html`
 
-## Contributing
-- Read `CONTRIBUTING.md` before opening a PR.
-- For bugs and features, use the issue templates.
-- Security reports must be private (`SECURITY.md`).
+## Contribuir
+- Lee `CONTRIBUTING.md` antes de enviar PRs.
+- Usa las plantillas para reportar bugs o proponer mejoras.
+- Los reportes de seguridad deben ser privados (`SECURITY.md`).
 
-## Maintainer
+## Mantenedor
 Isaac Esteban Haro Torres  
-Systems Engineer | Full Stack | Automation | Data  
+Ingeniero en Sistemas · Full Stack · Automatización · Data  
 GitHub: https://github.com/ieharo1

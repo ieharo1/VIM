@@ -1,22 +1,20 @@
-# Code of Conduct
+# Código de Conducta
 
-## Our Standard
-We are committed to a respectful, inclusive, and constructive community.
+## Estándar
+Comprometidos con una comunidad respetuosa, inclusiva y constructiva.
 
-## Expected behavior
-- Be respectful and professional.
-- Give technical feedback with concrete reasoning.
-- Assume good intent and collaborate in good faith.
+## Comportamiento esperado
+- Sé respetuoso y profesional.
+- Da retroalimentación técnica con razones concretas.
+- Asume buena fe y colabora con ánimo positivo.
 
-## Unacceptable behavior
-- Harassment, discrimination, or personal attacks.
-- Doxxing or sharing private data.
-- Repeated hostile or disruptive communication.
+## Comportamiento inaceptable
+- Acoso, discriminación o ataques personales.
+- Doxxing o exposición de datos privados.
+- Comunicaciones repetidamente hostiles o disruptivas.
 
-## Enforcement
-Project maintainers may remove comments, reject contributions, or block users
-who violate this code of conduct.
+## Aplicación
+Los mantenedores pueden eliminar comentarios, rechazar contribuciones o bloquear usuarios que violen este código.
 
-## Reporting
-Report issues to the maintainer via GitHub private contact options.
-
+## Reportes
+Reporta problemas por canales privados cuando se trate de seguridad o conductas graves.

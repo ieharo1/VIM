@@ -1,30 +1,29 @@
-# Contributing Guide
+# Guía de contribución
 
-Thanks for helping improve this Vim setup.
+Gracias por ayudar a mejorar este perfil de Vim.
 
-## Scope
-- Keep this repository Vim-first.
-- Propose changes that improve reliability, speed, readability, or onboarding.
-- Avoid heavy plugin additions without a clear productivity benefit.
+## Alcance
+- Mantén este repositorio enfocado en Vim.
+- Propón cambios que mejoren fiabilidad, velocidad, claridad o incorporación.
+- Evita sumar plugins pesados sin una ganancia clara de productividad.
 
-## Workflow
-1. Fork the repository.
-2. Create a branch: `feature/<short-name>` or `fix/<short-name>`.
-3. Make focused commits with clear messages.
-4. Run local validation:
+## Flujo de trabajo
+1. Haz fork del repositorio.
+2. Crea una rama `feature/<nombre>` o `fix/<nombre>`.
+3. Haz commits enfocados con mensajes claros.
+4. Ejecuta la validación local:
    - `bash scripts/validate.sh` (Linux/macOS)
    - `powershell -File scripts/validate.ps1` (Windows)
-5. Open a Pull Request using the template.
+5. Abre un Pull Request usando la plantilla.
 
-## Coding rules
-- Keep files ASCII unless there is a strong reason otherwise.
-- Prefer small, modular changes.
-- Document new keymaps and plugin behavior in `README.md`.
-- If a plugin is added, explain why it is better than current alternatives.
+## Reglas técnicas
+- Mantén los archivos en ASCII salvo que haya un motivo válido.
+- Prefiere cambios pequeños y modulares.
+- Documenta nuevos atajos o cambios de plugins en `README.md`.
+- Si agregas un plugin, explica por qué supera las alternativas actuales.
 
-## PR acceptance criteria
-- Config loads without Vim errors.
-- No keymap collisions without explanation.
-- README and docs updated when behavior changes.
-- CI passes.
-
+## Criterios de aceptación
+- La configuración debe cargar sin errores en Vim.
+- No deben existir colisiones de atajos sin explicación.
+- Se actualizan README y docs si cambia el comportamiento.
+- CI debe pasar.

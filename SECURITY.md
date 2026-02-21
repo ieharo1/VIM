@@ -1,14 +1,13 @@
-# Security Policy
+# Política de seguridad
 
-## Supported Versions
-- `main`: supported
+## Versiones soportadas
+- `main`: soportada
 
-## Reporting a Vulnerability
-- Do not open public issues for security vulnerabilities.
-- Report privately to the maintainer through GitHub security reporting or direct contact.
-- Include reproduction steps and affected files.
+## Cómo reportar vulnerabilidades
+- No abras issues públicos para vulnerabilidades de seguridad.
+- Reporta de manera privada al mantenedor a través del canal de seguridad de GitHub o contacto directo.
+- Incluye pasos para reproducir, archivos afectados y contexto.
 
-## Response Targets
-- Initial acknowledgment: within 72 hours.
-- Status update: within 7 days.
-
+## Tiempos de respuesta
+- Acknowledgment inicial: dentro de 72 horas.
+- Actualización de estado: dentro de 7 días.
