@@ -1,4 +1,4 @@
-# VIM Community Profile Setup
+# VIM
 
 Configuración profesional de Vim pensada para proyectos reales y colaboración Open Source.
 
