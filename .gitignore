@@ -1,0 +1,10 @@
+*.swp
+*.swo
+*.tmp
+Session.vim
+.netrwhist
+vim/plugged/
+vim/undo/
+vim/swap/
+vim/backup/
+

@@ -1,0 +1,17 @@
+" Main entrypoint for Vim config.
+
+let g:mapleader = " "
+let g:maplocalleader = ","
+
+if has('termguicolors')
+  set termguicolors
+endif
+
+source ~/.vim/settings.vim
+source ~/.vim/plugins.vim
+source ~/.vim/mappings.vim
+source ~/.vim/autocmds.vim
+
+syntax on
+filetype plugin indent on
+

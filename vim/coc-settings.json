@@ -1,0 +1,16 @@
+{
+  "suggest.noselect": true,
+  "suggest.enablePreview": true,
+  "diagnostic.virtualText": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "python"
+  ],
+  "eslint.autoFixOnSave": true,
+  "python.formatting.provider": "black"
+}
+

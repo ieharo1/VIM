@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="UTF-8" />
+  <title>VIM Community Profile · Isaac Esteban Haro Torres</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+
+  <div class="page-content">
+    <header class="hero">
+    <nav class="nav">
+      <span class="brand">VIM Profile</span>
+      <div class="nav-links">
+        <a href="#features">Características</a>
+        <a href="#learning">Aprendizaje</a>
+        <a href="#contact">Contacto</a>
+      </div>
+      <a class="pill" href="../README.md">Ver README</a>
+    </nav>
+
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">Herramienta · Enseñanza · Comunidad</p>
+        <h1>Configura Vim profesionalmente y aprende desde cero.</h1>
+        <p class="lead">
+          Este repositorio combina tutorías graduadas, configuración modular, CI y gobernanza OSS para que tu perfil brille en GitHub Pages y en tu flujo diario.
+        </p>
+        <div class="hero-ctas">
+          <a class="button primary" href="#learning">Ver manual</a>
+          <a class="button ghost" href="#features">Explorar stack</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <p class="panel-title">Stack destacado</p>
+        <ul>
+          <li><strong>Plugins</strong> vim-plug · fzf · coc.nvim · ALE</li>
+          <li><strong>Documentación</strong> docs/LEARNING_PATH · ROADMAP · CHEAT_SHEET</li>
+          <li><strong>Comunidad</strong> Plantillas de issues, CI y políticas completas</li>
+        </ul>
+        <div class="panel-footer">
+          Estado: listo para contribuciones · Página lista para GitHub Pages
+        </div>
+      </div>
+    </div>
+    </header>
+
+    <main>
+    <section class="features" id="features">
+      <article>
+        <h2>Configuración modular</h2>
+        <p>
+          `vim/` separa settings, plugins, mapeos y autocmds; `.vimrc` carga todo y los scripts `install.sh` / `install.ps1` facilitan el bootstrap.
+        </p>
+      </article>
+      <article>
+        <h2>Calidad de producto</h2>
+        <p>
+          Smoke tests en `tests/smoke.vim`, validación en `scripts/validate.*` y workflow CI que instala Vim y ejecuta la carga del config en cada push/PR.
+        </p>
+      </article>
+      <article>
+        <h2>Governance + Comunidad</h2>
+        <p>
+          Incluye `LICENSE`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, templates y roadmap para mantener compromiso y profesionalismo.
+        </p>
+      </article>
+    </section>
+
+    <section class="timeline" id="learning">
+      <div>
+        <span class="eyebrow">Manual escalable</span>
+        <h2>Aprende Vim paso a paso</h2>
+        <p>
+          Cada etapa contiene objetivos claros, prácticas y referencias: desde Stage 0 (fundamentos) hasta Stage 4 (contribución comunitaria). El manual + ejercicio + cheat sheet forman un kit completo.
+        </p>
+        <div class="timeline-links">
+          <a class="button secondary" href="./LEARNING_PATH.md">Manual</a>
+          <a class="button secondary" href="./LEARNING_EXERCISES.md">Ejercicios</a>
+          <a class="button secondary" href="./CHEAT_SHEET.md">Hoja rápida</a>
+        </div>
+      </div>
+      <div class="stage-grid">
+        <div class="stage active">
+          <span>Etapa 0</span>
+          <h3>Fundamentos</h3>
+          <p>Modalidad, `hjkl`, comandos básicos y confianza para permanecer en modo normal.</p>
+        </div>
+        <div class="stage">
+          <span>Etapa 1</span>
+          <h3>Productividad</h3>
+          <p>Operadores + movimientos, splits, buffers y búsqueda avanzada con `fzf`/`rg`.</p>
+        </div>
+        <div class="stage">
+          <span>Etapa 2</span>
+          <h3>Personalización</h3>
+          <p>Plugins personalizados, autocomandos, `coc.nvim`, macros y documentación propia.</p>
+        </div>
+        <div class="stage">
+          <span>Etapa 3</span>
+          <h3>Avanzado</h3>
+          <p>Funciones Vimscript reutilizables, LSP refactor, `:checkhealth` y perfil profesional.</p>
+        </div>
+        <div class="stage">
+          <span>Etapa 4</span>
+          <h3>Comunidad</h3>
+          <p>Doc, templates, pruebas y mentoría para mantener la configuración viva.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <article>
+        <h2>Desarrollado por Isaac Esteban Haro Torres</h2>
+        <p><strong>Ingeniero en Sistemas · Full Stack · Automatización · Data</strong></p>
+        <div class="contact-buttons">
+          <a class="button secondary" href="mailto:zackharo1@gmail.com"><span class="icon">✉</span> Email</a>
+          <a class="button ghost" href="https://wa.me/598805517?text=Hola"><span class="icon">💬</span> WhatsApp</a>
+          <a class="button secondary" href="https://github.com/ieharo1"><span class="icon">🐙</span> GitHub</a>
+          <a class="button ghost" href="https://ieharo1.github.io/portafolio-isaac.haro/"><span class="icon">🌐</span> Portafolio</a>
+        </div>
+      </article>
+      <article>
+        <h2>Licencia</h2>
+        <p>© 2026 Isaac Esteban Haro Torres · Todos los derechos reservados.</p>
+        <p>Documentación, scripts y guía de aprendizaje listos para uso público bajo MIT.</p>
+      </article>
+    </section>
+  </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
